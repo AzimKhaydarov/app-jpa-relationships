@@ -22,6 +22,5 @@ public class StudentDto {
 
     private Integer groupId;
 
-    @ManyToMany
-    private List<Subject> subjects;
+    private List<Integer> subjects;
 }
